@@ -1,4 +1,4 @@
 ---
-title: "Latest news"
-description: "this is meta description"
+title: "Artikel"
+description: "Artikel tentang Sangasanga"
 ---

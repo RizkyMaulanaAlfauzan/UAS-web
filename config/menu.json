@@ -5,15 +5,11 @@
       "url": "/"
     },
     {
-      "name": "Blog",
+      "name": "Artikel",
       "url": "/blogs"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
-    },
-    {
-      "name": "Contact",
+      "name": "Kontak",
       "url": "/contact"
     },
     {

@@ -7,7 +7,7 @@ const Posts = ({ posts }) => {
   const { blog_folder, summary_length } = config.settings;
   return (
     <div className="section row pb-0">
-      <div className="col-12 pb-12 lg:pb-24">
+      {/* <div className="col-12 pb-12 lg:pb-24">
         <div className="row items-center">
           <div className="col-12 md:col-6">
             {posts[0].frontmatter.image && (
@@ -45,8 +45,8 @@ const Posts = ({ posts }) => {
             </Link>
           </div>
         </div>
-      </div>
-      {posts.slice(1).map((post, i) => (
+      </div> */}
+      {posts.map((post, i) => (
         <div key={`key-${i}`} className="col-12 mb-8 sm:col-6 lg:col-4">
           {post.frontmatter.image && (
             <Image

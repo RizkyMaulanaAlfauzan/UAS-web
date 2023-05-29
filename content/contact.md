@@ -1,12 +1,11 @@
 ---
-title: "Contact Us"
+title: "Kontak"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Kontak saya untuk info-info lebih lanjut
+  description: Dapatkan lebih banyak informasi lebih spesifik tentang Sangasanga dengan menghubungi kontak-kontak di bawah.
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "No Hp: +62 831-5379-5632"
+    - "Mail: themorpheus120@gmail.com"
 ---

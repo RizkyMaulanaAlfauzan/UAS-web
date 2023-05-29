@@ -1,6 +1,7 @@
 import Logo from "@components/Logo";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
@@ -24,7 +25,7 @@ const Header = () => {
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0">
-          <Logo src={logo} />
+          <Image alt="Logo" src={logo} width={50} height={50} />
         </div>
 
         {/* navbar toggler */}
@@ -52,9 +53,8 @@ const Header = () => {
         {/* Menu */}
         <div
           id="nav-menu"
-          className={`order-3 md:order-1 ${
-            navOpen ? "max-h-[1000px]" : "max-h-0"
-          }`}
+          className={`order-3 md:order-1 ${navOpen ? "max-h-[1000px]" : "max-h-0"
+            }`}
         >
           <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">
             {main.map((menu, i) => (
@@ -85,9 +85,8 @@ const Header = () => {
                     <Link
                       href={menu.url}
                       onClick={() => setNavOpen(false)}
-                      className={`nav-link block ${
-                        router.asPath === menu.url ? "nav-link-active" : ""
-                      }`}
+                      className={`nav-link block ${router.asPath === menu.url ? "nav-link-active" : ""
+                        }`}
                     >
                       {menu.name}
                     </Link>

@@ -37,7 +37,7 @@ const Footer = () => {
                 src={config.site.logo}
                 width={config.site.logo_width}
                 height={config.site.logo_height}
-                alt=""
+                alt="footer"
               />
             </Link>
             {markdownify(footer_content, "p", "mt-3 mb-6")}
